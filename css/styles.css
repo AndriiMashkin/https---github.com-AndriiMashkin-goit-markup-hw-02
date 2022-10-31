@@ -1,6 +1,6 @@
 /*General STYLES*/
 body {
-  background-color: black;
+  background-color: red;
 }
 h1 {
   color: red;
@@ -16,7 +16,7 @@ h1 {
   .link {
     text-decoration: none;
   }
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
