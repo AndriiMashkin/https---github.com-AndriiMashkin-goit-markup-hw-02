@@ -1,5 +1,11 @@
 /*General STYLES*/
 body {
+  background-color: black;
+}
+h1 {
+  color: red;
+  padding: 60px;
+}
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 
