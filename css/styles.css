@@ -1,21 +1,23 @@
 
-body {
+.body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
  background: #F5F5F5;
 }
-h1 {
+.h1 {
   color: #FFFFFF;
   padding: 60px;
 }
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
-
   .list {
     list-style: none;
+   
   }
-
   .link {
     text-decoration: none;
-  }
+  }      
+  
+
+  
 
 .visually-hidden {
   position: absolute;
@@ -186,6 +188,33 @@ h1 {
   color: #2196f3;
 
   /*Портфоліо*/
+  .select-tupe:fcus {
+    background-color: var(--btn-bcg-select);
+    color: var(--secondary-text-color);
+  }
+  /*Утіліти*/
+  .list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .project-name {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--title-text-color);
+  }
+  .projct-about {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--primary-text-color);
+  }
   /*Усі */
   .batton-btn {
   font-weight: 500;
@@ -232,13 +261,7 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 /*project*/
-.project-title {
-font-weight: 700;
-font-size: 18px;
-line-height: 2.0e;
-letter-spacing: 0.06em;
-color: #212121;
-}
+
 .project-name {
 font-weight: 700;
 font-size: 18px;
@@ -246,21 +269,21 @@ line-height: 2.0em;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.projct-about {
+.project-about {
   font-weight: 400;
 font-size: 16px;
-line: height 1.88em;;
+line-height: 1.88em;
 letter-spacing: 0.03em;
 color: #757575;
 }
 .project-name {
-font-weight: 700;
+  font-weight: 700;
 font-size: 18px;
 line-height: 2.0em;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.projct-about {
+.project-about {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.88em
@@ -275,7 +298,7 @@ letter-spacing: 0.06em;
 color: #212121;
 
 }
-.projct-about {
+.project-about {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.88em
@@ -289,7 +312,7 @@ line-height: 2.0em
 letter-spacing: 0.06em;
 color: #212121;
 }
-.projct-about {
+.project-about {
   font-weight: 400;
 font-size: 16px;
 line-height: 1.88em;
@@ -303,7 +326,7 @@ line-height: 2.0em;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.projct-about {
+.project-about {
   font-weight: 400;
 font-size: 16px;
 line-height: 1.88em;
@@ -317,7 +340,7 @@ line-height: 2.em;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.projct-about {
+.project-about {
   font-weight: 400;
 font-size: 16px;
 line-height: 1.88em;
@@ -331,7 +354,7 @@ line-height: 2.0em;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.projct-about {
+.project-about {
   font-weight: 400;
 font-size: 16px;
 line-height: 1.88em;
@@ -345,7 +368,7 @@ line-height: 2.0em;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.projct-about {
+.project-about {
   font-weight: 400;
 font-size: 16px;
 line-height: 1.88em;
@@ -359,7 +382,7 @@ line-height: 2.0em;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.projct-about {
+.project-about {
   font-weight: 400;
 font-size: 16px;
 line-height: 1.88em;
@@ -370,7 +393,7 @@ color: #757575;
 .footer-mail-link {
   font-weight: 400;
 font-size: 14px;
-line: height 1.71em;;
+line-height: 1.71em;;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
