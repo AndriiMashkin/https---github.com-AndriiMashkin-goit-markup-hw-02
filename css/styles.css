@@ -2,7 +2,8 @@
 .body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
- background: #F5F5F5;
+ background-color: 
+#212121;
 }
 .h1 {
   color: #FFFFFF;
@@ -14,7 +15,15 @@
   }
   .link {
     text-decoration: none;
-  }      
+} 
+/* WebStudio */ 
+  .first-part {
+    color: #2196F3;
+  }  
+   .last-part {
+    color: #000;
+    
+   } 
   
 
   
