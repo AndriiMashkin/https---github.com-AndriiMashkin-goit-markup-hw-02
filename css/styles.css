@@ -24,8 +24,12 @@
     color: #000;
     
    } 
-   /*Site nav*/
+   /*Heder nav*/
+   .heder-nav.link:hover,
+   .heder-nav.link:focus {
    color: #2196F3;
+  }
+  
   
 
   
