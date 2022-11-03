@@ -24,6 +24,36 @@
     color: #000;
     
    } 
+   .hero .container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+   }
+   .hero{
+    background-color: var(--background-footer-color--);
+  }
+  .hero-title {
+    margin-bottom: 30px;
+    width: 696px;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .batton-btn {
+    padding: 10px 32px;
+    color: #ffffff;
+    background-color: #2196F3;
+    cursor: pointer;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+  }
    /*Heder nav*/
    .heder-nav.link:hover,
    .heder-nav.link:focus {
@@ -32,11 +62,6 @@
   .heder-nav.link.current {
     color: var(--accent-color);
   }
-
-
-  
-
-  
 
 .visually-hidden {
   position: absolute;
@@ -206,6 +231,35 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
+  /*Стилізація команди*/
+  .our-team-lead {
+    padding-top: 94px;
+    padding-batton: 94px;
+  }
+  .photo-team-list {
+    flex-basis:calc((100%-30px*3)/4);
+
+  }
+  .list-team-lead {
+    display: flex;
+    gap: 30px;
+    padding: left 215px;
+    padding-right: 215px;
+  }
+  .team-lead-name {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border: radius 4px 0px 4px 4px;
+  }
+  .team-lead-skill {
+    padding-bottom: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),0px 1px 1px rgba(0, 0, 0, 0.14),0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+  }
+  .list-team-lead {
+    flex-wrap: wrap;
+  }
 
   /*Портфоліо*/
   .select-tupe:fcus {
