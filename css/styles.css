@@ -138,6 +138,7 @@ outline: 2px solid tomato ;
   .hero-title {
     margin-left: auto;
     margin-right auto
+    margin: left 0; auto;
     width: 696px;
 
     font-weight: 900;
