@@ -1,9 +1,21 @@
-
+.box {
+  width: 500px;
+  height: 100px;
+  background-color: teal;
+  margin-left: auto;
+  margin-right: auto;
+}
 .body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
  background-color: 
 #212121;
+}
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 .h1 {
   color: #FFFFFF;
@@ -123,6 +135,7 @@ outline: 2px solid tomato ;
   line-height: 1.14px;
   letter-spacing: 0.02em;
   color: #2196F3;
+
   /*HERO*/
   .section-hero .container {
     padding-top: 200px;
@@ -169,6 +182,7 @@ outline: 2px solid tomato ;
   border-radius: 4px;
 }
 /*content*/
+/*УВАГА ДО ДЕТАЛЕЙ*/
 .content-title {
   font-weight: 700;
   font-size: 14px;
@@ -370,7 +384,7 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 /*project*/
-
+/*Технокряк*/
 .project-name {
 font-weight: 700;
 font-size: 18px;
@@ -385,6 +399,7 @@ line-height: 1.88em;
 letter-spacing: 0.03em;
 color: #757575;
 }
+/*Постер New Orlean vs Golden Star*/
 .project-name {
   font-weight: 700;
 font-size: 18px;
@@ -399,6 +414,7 @@ line-height: 1.88em
 letter-spacing: 0.03em;
 color: #757575;
 }
+/*Ресторан Seafood*/
 .project-name {
 font-weight: 700;
 font-size: 18px;
@@ -414,6 +430,7 @@ line-height: 1.88em
 letter-spacing: 0.03em;
 color: #757575;
 }
+/*Проєкт Prime*/
 .project-name {
   font-weight: 700;
 font-size: 18px;
@@ -428,6 +445,7 @@ line-height: 1.88em;
 letter-spacing: 0.03em;
 color: #757575;
 }
+/*Проєкт Boxes*/
 .project-name {
   font-weight: 700;
 font-size: 18px;
@@ -442,6 +460,7 @@ line-height: 1.88em;
 letter-spacing: 0.03em;
 color: #757575;
 }
+/*Inspiration has no Borders*/
 .project-name {
   font-weight: 700;
 font-size: 18px;
@@ -456,6 +475,7 @@ line-height: 1.88em;
 letter-spacing: 0.03em;
 color: #757575;
 }
+/*Видання Limited Edition*/
 .project-name {
   font-weight: 700;
 font-size: 18px;
@@ -470,6 +490,7 @@ line-height: 1.88em;
 letter-spacing: 0.03em;
 color: #757575;
 }
+/*Проєкт LAB*/
 .project-name {
   font-weight: 700;
 font-size: 18px;
@@ -484,6 +505,7 @@ line-height: 1.88em;
 letter-spacing: 0.03em;
 color: #757575;
 }
+/*Growing Business*/
 .project-name {
   font-weight: 700;
 font-size: 18px;
