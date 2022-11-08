@@ -8,23 +8,19 @@
 .body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
- background-color: 
-#212121;
+ 
 }
 .container {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
+  list-style: none;
+    padding-left: 0;
+    margin: 0;
 .h1 {
   color: #FFFFFF;
   padding: 60px;
 }
   .list {
     list-style: none;
-    padding-left: 0;
-    margin: 0;
+     margin: 0;
    
   }
   .link {
@@ -154,7 +150,7 @@ outline: 2px solid tomato ;
   }
   .hero-title {
     margin: left 0; auto;
-    margin: right 0; auto;
+    margin-bottom: 40px;
     width: 696px;
 
     font-weight: 900;
@@ -177,6 +173,7 @@ outline: 2px solid tomato ;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #2f303a;
+  margin-bottom: 100px;
 }
 .heder-btn:hover {
   position: absolute;
@@ -191,6 +188,8 @@ outline: 2px solid tomato ;
 /*content*/
 /*УВАГА ДО ДЕТАЛЕЙ*/
 .content-title {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14em;
@@ -207,6 +206,8 @@ outline: 2px solid tomato ;
 }
 /* ПУНКТУАЛЬНІСТЬ */
 .content-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14em;
@@ -224,6 +225,8 @@ outline: 2px solid tomato ;
 }
 /* ПЛАНУВАННЯ */
 .content-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14em;
@@ -240,6 +243,8 @@ outline: 2px solid tomato ;
 }
 /* СУЧАСНІ ТЕХНОЛОГІЇ */
 .content-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14em;
@@ -286,6 +291,7 @@ outline: 2px solid tomato ;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
+}
   /*Стилізація команди*/
   .our-team-lead {
     padding-top: 94px;
