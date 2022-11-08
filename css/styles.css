@@ -48,6 +48,7 @@ outline: 2px solid tomato ;
     text-align: center;
    }
    .hero{
+   .hero {
     background-color: var(--background-footer-color--);
   }
   .hero-title {
