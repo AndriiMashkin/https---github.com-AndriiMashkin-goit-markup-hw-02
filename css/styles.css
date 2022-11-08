@@ -48,6 +48,13 @@ padding-bottom: 25px;
 outline: 2px solid tomato ;
  }
 /* WebStudio */ 
+.heder-container {
+  width: 145px;
+  height: 31px;
+  top: 24px;
+  left: 215px;
+}
+
   .first-part {
     color: #2196F3;
   }  
