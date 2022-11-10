@@ -1,4 +1,5 @@
 .box {
+  
   width: 500px;
   height: 100px;
   background-color: teal;
@@ -8,12 +9,34 @@
 .body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
- 
+}
+/*site-nav*/
+.site-nav {
+  display: block;
+}
+
+.site-nav .item {
+  background-color: tomato;
+  .site-nav .item+ .item {
+    margin: left 40px; ;
+  }
+  
 }
 .header-logo {
-  display: flex;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.14rem;
+letter-spacing: 0.02em;
+text-decoration: none;
+
+color: #212121;
+
 }
 .heder-list-team {
+  
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -24,9 +47,11 @@
 
 
 .container {
+
+  width: 1200px;
   list-style: none;
-    padding-left: 0;
-    margin: 0;
+    padding:o 15px;
+    margin: 0 auto;
 }
 .h1 {
   text-align: center;
@@ -346,15 +371,24 @@ outline: 2px solid tomato ;
   }
   /*Утіліти*/
   .list {
-    display: flex;
+    display:block ;
     list-style: none;
-    padding-left: 0;
-    margin: 0;
+   
+    padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.14rem;
+letter-spacing: 0.02em;
+text-decoration: none;
+
+color: #212121;
   }
   .link {
     text-decoration: none;
   }
   .project-name {
+    display:block
     text-decoration: none;
     font-weight: 700;
     font-size: 18px;
@@ -370,6 +404,7 @@ outline: 2px solid tomato ;
   }
   /*Усі */
   .batton-btn {
+   
   font-weight: 500;
 font-size: 16px;
 line: height 1.62em;
