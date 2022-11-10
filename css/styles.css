@@ -7,6 +7,7 @@
   margin-right: auto;
 }
 .body {
+  
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
@@ -14,9 +15,14 @@
 .site-nav {
   display: block;
 }
+.site-nav .link {
+  display: block;
+   padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 .site-nav .item {
-  background-color: tomato;
+ 
   .site-nav .item+ .item {
     margin: left 40px; ;
   }
@@ -54,6 +60,19 @@ color: #212121;
     margin: 0 auto;
 }
 .h1 {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36px;
+
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
   text-align: center;
   color: #FFFFFF;
   padding: 60px;
@@ -85,14 +104,14 @@ outline: 2px solid tomato ;
  }
 /* WebStudio */ 
 .heder-container {
-  
-  width: 145px;
-  height: 31px;
-  top: 24px;
-  left: 215px;
-}
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+text-decoration: none;}
 
-  .first-part {
+ .first-part {
     color: #2196F3;
   }  
    .last-part {
@@ -104,7 +123,18 @@ outline: 2px solid tomato ;
     padding-bottom: 200px;
     text-align: center;
    }
-   .hero {
+   .h1-hero title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36px;
+
+text-align: center;
+
+
+color: #FFFFFF;
+
     background-color: var(--background-footer-color--);
   }
   .hero-title {
@@ -325,6 +355,17 @@ outline: 2px solid tomato ;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
+  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-mailto-link {
@@ -586,19 +627,25 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 /*FOOTER*/
+
 .footer-mail-link {
+
+  font-style: normal;
   font-weight: 400;
 font-size: 14px;
 line-height: 1.71em;;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
 }
-.footer-tel-link {
+.address-contacts link {
+  font-style: normal;
   font-weight: 400;
 font-size: 14px;
 line-height: 1.71em;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color: var(--primary-text-color)
+text-decoration: none;
 }
 
 
