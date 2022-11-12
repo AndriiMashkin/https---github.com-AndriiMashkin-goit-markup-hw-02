@@ -406,13 +406,27 @@ color: rgba(255, 255, 255, 0.6);
   }
 
   /*Портфоліо*/
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+  .boxes> .boxes-top {
+    flex-basis: calc(100%/3-30px);
+    margin-left: 30px;
+    margin-top: 30px;
+  }
   .select-tupe:fcus {
     background-color: var(--btn-bcg-select);
     color: var(--secondary-text-color);
   }
-  /*Утіліти*/
+    /*Утіліти*/
   .list {
-    display:block ;
+    display:flex;
     list-style: none;
    
     padding-top: 32px;
@@ -429,7 +443,7 @@ color: #212121;
     text-decoration: none;
   }
   .project-name {
-    display:block
+    display:flex;
     text-decoration: none;
     font-weight: 700;
     font-size: 18px;
@@ -506,6 +520,8 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 /*Постер New Orlean vs Golden Star*/
+
+
 .project-name {
   font-weight: 700;
 font-size: 18px;
