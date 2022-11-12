@@ -2,31 +2,14 @@
   
   width: 500px;
   height: 100px;
-  background-color: teal;
+ 
   margin-left: auto;
   margin-right: auto;
 }
 .body {
   
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
-}
-/*site-nav*/
-.site-nav {
-  display: block;
-}
-.site-nav .link {
-  display: block;
-   padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.site-nav .item {
- 
-  .site-nav .item+ .item {
-    margin: left 40px; ;
-  }
-  
+  font-family: Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 .header-logo {
 
@@ -34,48 +17,66 @@
   padding-bottom: 32px;
   font-weight: 500;
 font-size: 14px;
-line-height: 1.14rem;
+line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
 
 color: #212121;
 
 }
-.heder-list-team {
-  
-  padding-top: 32px;
-  padding-bottom: 32px;
+.logo-link {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31/26);
+letter-spacing: 0.03em;
+display: block;
+padding-top: 24px;
+padding-bottom: 25px;
+
+color: #2196F3;
 }
-.heder-nav.item:last-child {
-  margin-right: 0;
+
+.logo-color {
+  color: var(--active-color);
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.section-hero {
+   width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+  background-color: #000;
 
 }
 
-
-.container {
-
+.container  {
   width: 1200px;
   list-style: none;
     padding:o 15px;
     margin: 0 auto;
-}
+   } 
+   .hero-title {
+ position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;}
 .h1 {
-  font-family: 'Roboto';
+
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36px;
-
+color: #FFFFFF;
 
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-
-color: #FFFFFF;
-
-  text-align: center;
-  color: #FFFFFF;
-  padding: 60px;
+  padding: 60px
 }
   .list {
     list-style: none;
@@ -118,12 +119,55 @@ text-decoration: none;}
     color: #000;
     
    } 
-   . hero .container {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    text-align: center;
+   /*Студія*/
+   
+   .heder-list-link  {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+width: 45px;
+height: 16px;
+left: 453px;
+top: 32px;
    }
-   .h1-hero title{
+   /*Портфолио*/
+   .heder-list-link {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+
+color: #212121;
+width: 72px;
+height: 16px;
+left: 548px;
+top: 32px;
+ }
+ /*Контакти*/
+ .heder-list-link {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+
+color: #212121;
+width: 64px;
+height: 16px;
+left: 670px;
+top: 32px;
+ }
+
+    
+   .h1-hero title {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
@@ -341,6 +385,9 @@ color: #FFFFFF;
   color: #212121;
 }
 /* Наша команда */
+.section-lead {
+
+}
 .title-list {
   font-weight: 700;
   font-size: 36px;
