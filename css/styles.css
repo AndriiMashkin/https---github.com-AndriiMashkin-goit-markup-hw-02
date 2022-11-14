@@ -6,6 +6,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+:root {
+  --primary-text-color: rgba(0,0.0.0.8)
+  --title-text-color:#000000;
+  --accent-color:#18a0fb;
+}
 .body {
   
   font-family: Raleway, sans-serif;
@@ -14,6 +19,7 @@
  
   
 }
+
 .header-logo {
 
   padding-top: 32px;
@@ -43,7 +49,7 @@ text-decoration: none;
 }
 
 .logo-color {
-  color: var(--active-color);
+  color: var(--accent-color);
   display: inline-block;
   margin-bottom: 20px;
 }
@@ -63,7 +69,7 @@ top: 80px;
     padding:o 15px;
     margin: 0 auto;
    } 
-   .hero-title {
+   .hero title {
  position: absolute;
 width: 696px;
 height: 120px;
@@ -216,11 +222,7 @@ cursor: pointer;
     color:var(--primary-text-color)
     background-color: var(btn-hover-focus)
     width: 152px;
-height: 30px;
-left: 724px;
-top: 440px;
-    
-   /*Heder nav*/
+/*Heder nav*/
    
    .heder-nav.link:focus {
    color: #2196F3;
