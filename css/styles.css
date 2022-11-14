@@ -10,6 +10,8 @@
   
   font-family: Raleway, sans-serif;
   font-family: Roboto, sans-serif;
+ 
+  
 }
 .header-logo {
 
@@ -36,6 +38,7 @@ padding-top: 24px;
 padding-bottom: 25px;
 
 color: #2196F3;
+text-decoration: none;
 }
 
 .logo-color {
@@ -167,7 +170,7 @@ top: 32px;
  }
 
     
-   .h1-hero title {
+   .hero title {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
@@ -181,6 +184,7 @@ color: #FFFFFF;
 
     background-color: var(--background-footer-color--);
   }
+  
   .hero-title {
     margin-bottom: 30px;
     width: 696px;
@@ -192,17 +196,29 @@ color: #FFFFFF;
     letter-spacing: 0.06em;
     text-transform: uppercase;
   }
-  .batton-btn {
+  .main-button {
+   
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: calc(30/16);
+ display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+cursor: pointer;
+
+
     padding: 10px 32px;
-    color: #ffffff;
-    background-color: #2196F3;
-    cursor: pointer;
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
-  }
+    color:var(--primary-text-color)
+    background-color: var(btn-hover-focus)
+    width: 152px;
+height: 30px;
+left: 724px;
+top: 440px;
+    
    /*Heder nav*/
    
    .heder-nav.link:focus {
@@ -259,22 +275,32 @@ color: #FFFFFF;
     padding-top: 200px;
     padding-botton: 200px;
     text-align: center;
-  }
-  .hero {
     background-color : #2F303A;
   }
+  
+  }
   .hero-title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height:calc(60/44);
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+
+
     margin: left 0; auto;
     margin-bottom: 40px;
     width: 696px;
 
-    font-weight: 900;
-    font-size: 44px;
-    line: height 1.36em;  
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color:  #ffffff;
+    
   }
 }
 .heder-btn {
@@ -287,10 +313,11 @@ color: #FFFFFF;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #2f303a;
+  background-color: #2196f3;
   margin-bottom: 100px;
 }
 .heder-btn:hover {
+  
   position: absolute;
   width: 216px;
   height: 50px;
@@ -307,7 +334,7 @@ color: #FFFFFF;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14em;
+  line-height: 1.14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
