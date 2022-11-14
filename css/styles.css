@@ -10,6 +10,7 @@
   
   font-family: Raleway, sans-serif;
   font-family: Roboto, sans-serif;
+  background: F5F5F5;
  
   
 }
@@ -577,16 +578,16 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
-/*project*/
+/*boxes list*/
 /*Технокряк*/
-.project-name {
+.boxes-title {
 font-weight: 700;
 font-size: 18px;
 line-height: 2.0em;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.project-about {
+.boxes-text {
   font-weight: 400;
 font-size: 16px;
 line-height: 1.88em;
@@ -596,14 +597,14 @@ color: #757575;
 /*Постер New Orlean vs Golden Star*/
 
 
-.project-name {
+.boxes-title {
   font-weight: 700;
 font-size: 18px;
 line-height: 2.0em;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.project-about {
+.boxes-text {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.88em
@@ -611,7 +612,7 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 /*Ресторан Seafood*/
-.project-name {
+.boxes-title {
 font-weight: 700;
 font-size: 18px;
 line-height: 2.0em;
@@ -619,7 +620,7 @@ letter-spacing: 0.06em;
 color: #212121;
 
 }
-.project-about {
+.boxes-text {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.88em
@@ -627,14 +628,14 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 /*Проєкт Prime*/
-.project-name {
+.boxes-title {
   font-weight: 700;
 font-size: 18px;
 line-height: 2.0em
 letter-spacing: 0.06em;
 color:   #212121 ;
 }
-.project-about {
+.boxes-text {
   font-weight: 400;
 font-size: 16px;
 line-height: 1.88em;
@@ -642,14 +643,14 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 /*Проєкт Boxes*/
-.project-name {
+.boxes-title {
   font-weight: 700;
 font-size: 18px;
 line-height: 2.0em;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.project-about {
+.boxes-text {
   font-weight: 400;
 font-size: 16px;
 line-height: 1.88em;
@@ -657,14 +658,14 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 /*Inspiration has no Borders*/
-.project-name {
+.boxes-title {
   font-weight: 700;
 font-size: 18px;
 line-height: 2.em;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.project-about {
+.boxes-text {
   font-weight: 400;
 font-size: 16px;
 line-height: 1.88em;
@@ -672,14 +673,14 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 /*Видання Limited Edition*/
-.project-name {
+.boxes-title {
   font-weight: 700;
 font-size: 18px;
 line-height: 2.0em;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.project-about {
+.boxes-text {
   font-weight: 400;
 font-size: 16px;
 line-height: 1.88em;
@@ -687,14 +688,14 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 /*Проєкт LAB*/
-.project-name {
+.boxes-title {
   font-weight: 700;
 font-size: 18px;
 line-height: 2.0em;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.project-about {
+.boxes-text {
   font-weight: 400;
 font-size: 16px;
 line-height: 1.88em;
@@ -702,14 +703,14 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 /*Growing Business*/
-.project-name {
+.boxes-title {
   font-weight: 700;
 font-size: 18px;
 line-height: 2.0em;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.project-about {
+.boxes-text {
   font-weight: 400;
 font-size: 16px;
 line-height: 1.88em;
