@@ -16,6 +16,7 @@
   font-family: Raleway, sans-serif;
   font-family: Roboto, sans-serif;
   background: F5F5F5;
+  text-decoration: none;
  
   
 }
@@ -192,17 +193,8 @@ color: #FFFFFF;
     background-color: var(--background-footer-color--);
   }
   
-  .hero-title {
-    margin-bottom: 30px;
-    width: 696px;
-    color: #ffffff;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-  }
+  
+  
   .main-button {
    
 
