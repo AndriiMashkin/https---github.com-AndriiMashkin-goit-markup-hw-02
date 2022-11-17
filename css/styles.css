@@ -15,7 +15,6 @@
   
   font-family: Raleway, sans-serif;
   font-family: Roboto, sans-serif;
-  background: F5F5F5;
   text-decoration: none;
  
   
@@ -54,48 +53,80 @@ text-decoration: none;
   display: inline-block;
   margin-bottom: 20px;
 }
-.heder-tel-link{
+.heder-mail-link {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16/14);
   letter-spacing: 0,02em;
   color: var(--secondary-text-color);
 }
-
-.section-hero {
-   width: 1600px;
+.heder-tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16/14);
+  letter-spacing: 0,02em;
+  color: var(--secondary-text-color);
+}
+/*HERO*/
+.hero {
+width: 1600px;
 height: 600px;
 left: 0px;
 top: 80px;
-  background-color: #000;
-
+  background-color: #2f303a;
+  margin: 0 auto;
+ 
+  display: block;
 }
 
-.container  {
-  width: 1200px;
-  list-style: none;
-    padding:o 15px;
-    margin: 0 auto;
-   } 
-   .hero title {
- position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;}
-.h1 {
-
+.hero-title {
+  font-family: 'Roboto' sans-serif;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 1.36px;
-color: #FFFFFF;
+line-height:calc(60/44)
 
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-  padding: 60px
+margin: 0 avto;
+
+color: #FFFFFF;
+
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+margin: 0 avto;
+text-align: center;
+align-items: center;
 }
+.main-button {
+  font-family: 'Roboto'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+margin: 0 avto;
+text-align: center;
+align-items: center;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+
+
+}
+
+
   .list {
     list-style: none;
      margin: 0;
@@ -442,6 +473,16 @@ line-height: 1.71px;
 letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
+}
+.footer {
+  position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2094px;
+
+background: #2F303A;
+
 }
 
 .footer-mailto-link {
