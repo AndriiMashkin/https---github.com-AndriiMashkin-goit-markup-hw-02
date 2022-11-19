@@ -237,11 +237,8 @@ line-height: 1.14px;
 letter-spacing: 0.02em;
 
 color: #212121;
-width: 64px;
-height: 16px;
-left: 670px;
-top: 32px;
  }
+
 
     
    .hero title {
@@ -503,6 +500,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .footer {
+  text-decoration: none;
   font-style: normal;
   position: absolute;
 width: 1600px;
@@ -517,6 +515,7 @@ background: #2F303A;
   text-decoration: none;
   font-family: Raleway,sans-serif;
 font-style: normal;}
+
 .first-part {
 font-weight: 700;
 font-size: 26px;
@@ -539,6 +538,7 @@ color:rgba(255, 255, 255, 1);
 
 
 .footer-mailto-link {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
