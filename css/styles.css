@@ -6,66 +6,82 @@
   margin-left: auto;
   margin-right: auto;
 }
-:root {
-  --primary-text-color: rgba(0,0.0.0.8)
-  --title-text-color:#000000;
-  --accent-color:#18a0fb;
-}
+
 .body {
   
   font-family: Raleway, sans-serif;
   font-family: Roboto, sans-serif;
   text-decoration: none;
- 
-  
+ }
+.header-container {
+  text-decoration: none;
+  font-family: Roboto;
+font-style: normal;
+background: #FFFFFF;
+}
+.header-logo {
+   text-decoration: none;
+  font-family: Roboto;
+font-style: normal;
+ font-weight: 700;
+font-size: 26px;
+line-height:calc(31/26);
+letter-spacing: 0.03em;
 }
 
-.header-logo {
 
-  padding-top: 32px;
-  padding-bottom: 32px;
+.logo {
+  first-part color: rgba(33, 150, 243, 1);
+  .last-part color: rgba (0,0,0,1);
+  
+
+}
+.header-list-link  {
+  text-decoration: none;
+  width: 45px;
   font-weight: 500;
 font-size: 14px;
-line-height: 1.14;
+line-height: calc(16/14);
 letter-spacing: 0.02em;
-text-decoration: none;
-
-color: #212121;
-
-}
-.logo-link {
-  font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: calc(31/26);
-letter-spacing: 0.03em;
-display: block;
-padding-top: 24px;
-padding-bottom: 25px;
 
 color: #2196F3;
-text-decoration: none;
+
 }
 
-.logo-color {
-  color: var(--accent-color);
-  display: inline-block;
-  margin-bottom: 20px;
+
+
+  
+  
+
+
+ 
+
+
+
+
+
+.header-mail-list {
+  
+
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.02em;
+
+color: #2196F3;
+
+  
 }
-.heder-mail-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16/14);
-  letter-spacing: 0,02em;
-  color: var(--secondary-text-color);
-}
-.heder-tel-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16/14);
-  letter-spacing: 0,02em;
-  color: var(--secondary-text-color);
+.header-tel-link {
+  
+
+font-weight: 500;
+font-size: 14px;
+line-height:calc(16/14);
+letter-spacing: 0.02em;
+
+color: #757575;
+
 }
 /*HERO*/
 .hero {
@@ -117,10 +133,22 @@ color: #FFFFFF;
 margin: 0 avto;
 text-align: center;
 align-items: center;
-
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+
+
+
+
+
+}
+
+.batton-btn {
+  background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+
 
 
 
@@ -154,7 +182,7 @@ outline: 2px solid tomato ;
  }
 /* WebStudio */ 
 .heder-container {
-  font-family: 'Raleway';
+  font-family: Raleway;
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -171,7 +199,7 @@ text-decoration: none;}
    /*Студія*/
    
    .heder-list-link  {
-    font-family: 'Roboto';
+    font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -186,7 +214,7 @@ top: 32px;
    }
    /*Портфолио*/
    .heder-list-link {
-    font-family: 'Roboto';
+    font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -201,7 +229,7 @@ top: 32px;
  }
  /*Контакти*/
  .heder-list-link {
-  font-family: 'Roboto';
+  font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -217,7 +245,7 @@ top: 32px;
 
     
    .hero title {
-    font-family: 'Roboto';
+    font-family: Roboto;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -236,7 +264,7 @@ color: #FFFFFF;
   .main-button {
    
 
-    font-family: 'Roboto';
+    font-family: Roboto;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -475,6 +503,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .footer {
+  font-style: normal;
   position: absolute;
 width: 1600px;
 height: 252px;
@@ -484,6 +513,30 @@ top: 2094px;
 background: #2F303A;
 
 }
+.logo {
+  text-decoration: none;
+  font-family: Raleway,sans-serif;
+font-style: normal;}
+.first-part {
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31/26);
+width: 145px;
+letter-spacing: 0.03em;
+color: #2196F3;
+
+}
+.last-part {
+  font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31/26);
+letter-spacing: 0.03em;
+
+color:rgba(255, 255, 255, 1);
+}
+
 
 .footer-mailto-link {
   font-weight: 500;
