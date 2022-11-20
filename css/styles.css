@@ -12,6 +12,13 @@
   font-family: Raleway, sans-serif;
   font-family: Roboto, sans-serif;
   text-decoration: none;
+ 
+ }
+ .list {
+  text-decoration: none;
+ }
+ .link {
+  text-decoration: none;
  }
 .header-container {
   text-decoration: none;
@@ -25,20 +32,24 @@ background: #FFFFFF;
 font-style: normal;
  font-weight: 700;
 font-size: 26px;
-line-height:calc(31/26);
+line-height:calc(31 / 26);
 letter-spacing: 0.03em;
-}
-
-
-.logo {
-  first-part color: rgba(33, 150, 243, 1);
+first-part color: rgba(33, 150, 243, 1);
   .last-part color: rgba (0,0,0,1);
-  
+
+}
+.logo {
+  font-weight: 700;
+font-size: 26px;
+line-height:calc(31/26)
+letter-spacing: 0.03em;
+first-part color: rgba(33, 150, 243, 1);
+  .last-part color: rgba (0,0,0,1);
 
 }
 .header-list-link  {
   text-decoration: none;
-  width: 45px;
+  
   font-weight: 500;
 font-size: 14px;
 line-height: calc(16/14);
@@ -60,7 +71,7 @@ color: #2196F3;
 
 
 
-.header-mail-list {
+.header-mail {
   
 
 font-weight: 500;
@@ -72,7 +83,7 @@ color: #2196F3;
 
   
 }
-.header-tel-link {
+.header-tel {
   
 
 font-weight: 500;
@@ -85,14 +96,20 @@ color: #757575;
 }
 /*HERO*/
 .hero {
+  
 width: 1600px;
 height: 600px;
 left: 0px;
 top: 80px;
+
+
+
+
+  text-align: center;
   background-color: #2f303a;
-  margin: 0 auto;
  
-  display: block;
+ 
+  
 }
 
 .hero-title {
@@ -110,9 +127,6 @@ margin: 0 avto;
 color: #FFFFFF;
 
 width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
 margin: 0 avto;
 text-align: center;
 align-items: center;
