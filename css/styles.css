@@ -28,26 +28,21 @@ background: #FFFFFF;
 }
 .header-logo {
    text-decoration: none;
-  font-family: Roboto;
-font-style: normal;
+  
  font-weight: 700;
 font-size: 26px;
 line-height:calc(31 / 26);
 letter-spacing: 0.03em;
-first-part color: rgba(33, 150, 243, 1);
-  .last-part color: rgba (0,0,0,1);
 
 }
 .logo {
   font-weight: 700;
 font-size: 26px;
 line-height:calc(31/26)
-letter-spacing: 0.03em;
-first-part color: rgba(33, 150, 243, 1);
-  .last-part color: rgba (0,0,0,1);
+text-decoration: none;
 
 }
-.header-list-link  {
+.header-list  {
   text-decoration: none;
   
   font-weight: 500;
@@ -57,80 +52,55 @@ letter-spacing: 0.02em;
 
 color: #2196F3;
 
-}
-
-
 
   
-  
-
-
- 
-
-
-
-
-
-.header-mail {
-  
-
 font-weight: 500;
 font-size: 14px;
 line-height: calc(16/14);
 letter-spacing: 0.02em;
 
-color: #2196F3;
-
-  
+color: #212121;
 }
-.header-tel {
-  
 
-font-weight: 500;
+
+
+.header-mail-list {
+  font-weight: 500;
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.02em;
+
+color: #2196F3;
+text-decoration: none;
+
+}
+.header-tel-link {
+  font-weight: 500;
 font-size: 14px;
 line-height:calc(16/14);
 letter-spacing: 0.02em;
 
 color: #757575;
+text-decoration: none;
 
 }
 /*HERO*/
 .hero {
-  
-width: 1600px;
+  width: 1600px;
 height: 600px;
 left: 0px;
 top: 80px;
-
-
-
-
-  text-align: center;
+text-align: center;
   background-color: #2f303a;
- 
- 
-  
 }
-
 .hero-title {
   font-family: 'Roboto' sans-serif;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height:calc(60/44)
-
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-margin: 0 avto;
-
-color: #FFFFFF;
-
-width: 696px;
-margin: 0 avto;
-text-align: center;
-align-items: center;
 }
+
 .main-button {
   font-family: 'Roboto'sans-serif;
 font-style: normal;
@@ -150,11 +120,6 @@ align-items: center;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-
-
-
-
-
 }
 
 .batton-btn {
@@ -162,19 +127,12 @@ border-radius: 4px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 
-
-
-
-
 }
-
-
-  .list {
+.list {
     list-style: none;
      margin: 0;
-   
-  }
-  .link {
+    }
+   .link {
     text-decoration: none;
   }
   .header-logo {
@@ -188,11 +146,7 @@ font-size: 26px;
 line-height: 1.19em;
 letter-spacing: 0.03em;
 
-margin-left: 215px;
-display: block;
-padding-top: 24px;
-padding-bottom: 25px;
-outline: 2px solid tomato ;
+
  }
 /* WebStudio */ 
 .heder-container {
@@ -289,33 +243,18 @@ cursor: pointer;
 
     padding: 10px 32px;
     color:var(--primary-text-color)
-    background-color: var(btn-hover-focus)
-    width: 152px;
+     
 /*Heder nav*/
    
-   .heder-nav.link:focus {
-   color: #2196F3;
-  }
-  .heder-nav.link.current {
-    color: var(--accent-color);
-  }
+  
+  
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
 
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
+  
 /*HEDER*/
 
-.heder-nav-item {
+heder-nav-i.tem {
   font-weight: 500;
   font-size: 14px;
   line: height 1.14em;
@@ -343,17 +282,9 @@ cursor: pointer;
   color: #2196F3;
 
   /*HERO*/
-  .section-hero .container {
-    padding-top: 200px;
-    padding-botton: 200px;
-    text-align: center;
-    background-color : #2F303A;
-  }
   
-  }
   .hero-title {
-    font-family: 'Roboto';
-font-style: normal;
+  
 font-weight: 900;
 font-size: 44px;
 line-height:calc(60/44);
@@ -513,52 +444,7 @@ letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
 }
-.footer {
-  text-decoration: none;
-  font-style: normal;
-  position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2094px;
 
-background: #2F303A;
-
-}
-.logo {
-  text-decoration: none;
-  font-family: Raleway,sans-serif;
-font-style: normal;}
-
-.first-part {
-font-weight: 700;
-font-size: 26px;
-line-height: calc(31/26);
-width: 145px;
-letter-spacing: 0.03em;
-color: #2196F3;
-
-}
-.last-part {
-  font-family: Raleway, sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: calc(31/26);
-letter-spacing: 0.03em;
-
-color:rgba(255, 255, 255, 1);
-}
-
-
-.footer-mailto-link {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #2196f3;
-}
   /*Стилізація команди*/
   .our-team-lead {
     padding-top: 94px;
@@ -588,6 +474,54 @@ color:rgba(255, 255, 255, 1);
   .list-team-lead {
     flex-wrap: wrap;
   }
+  /*Footer*/
+  .footer {
+  text-decoration: none;
+    background: #2F303A}
+
+  .address-contacts link {
+    text-decoration: none;
+    font-style: normal;
+    background: #2F303A;
+}
+logo {
+  text-decoration: none;
+  font-family: Raleway,sans-serif;
+font-style: normal;}
+
+.first-part {
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31/26);
+width: 145px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.last-part {
+  rgba(255, 255, 255, 1);
+}
+
+  .footer-tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+  
+font-family: 'Roboto'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71px;
+
+
+letter-spacing: 0.03em;
+  
+
+
+}
+
 
   /*Портфоліо*/
   .boxes {
@@ -741,9 +675,9 @@ color: #757575;
   font-weight: 700;
 font-size: 18px;
 line-height: 2.0em
-letter-spacing: 0.06em;
-color:   #212121 ;
 }
+
+
 .boxes-text {
   font-weight: 400;
 font-size: 16px;
@@ -827,6 +761,18 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 /*FOOTER*/
+.address-contacts {
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
+font-size: 14px;
+line-height: calc(24/14);
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+}
 
 .footer-mail-link {
 
@@ -835,9 +781,7 @@ color: #757575;
 font-size: 14px;
 line-height: 1.71em;;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-text-decoration: none;
-}
+
 .address-contacts link {
   font-style: normal;
   font-weight: 400;
@@ -845,7 +789,7 @@ font-size: 14px;
 line-height: 1.71em;
 letter-spacing: 0.03em;
 color: var(--primary-text-color)
-text-decoration: none;
+
 }
 
 
