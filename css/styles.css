@@ -10,7 +10,7 @@
 .body {
   
   font-family: Raleway, sans-serif;
-  font-family: Roboto, sans-serif;
+  font-family:Roboto; sans-serif;
   text-decoration: none;
  
  }
@@ -22,7 +22,7 @@
  }
 .header-container {
   text-decoration: none;
-  font-family: Roboto;
+  font-family: 'Roboto';
 font-style: normal;
 background: #FFFFFF;
 }
@@ -31,15 +31,15 @@ background: #FFFFFF;
   
  font-weight: 700;
 font-size: 26px;
-line-height:calc(31 / 26);
+line-height: calc(31/26);
 letter-spacing: 0.03em;
 
 }
 .logo {
   font-weight: 700;
 font-size: 26px;
-line-height:calc(31/26)
-text-decoration: none;
+line-height: calc(31/26)
+
 
 }
 .header-list  {
@@ -85,13 +85,25 @@ text-decoration: none;
 
 }
 /*HERO*/
+
 .hero {
-  width: 1600px;
+  
+width: 1600px;
 height: 600px;
 left: 0px;
 top: 80px;
 text-align: center;
-  background-color: #2f303a;
+
+
+
+padding-top: 200px;
+
+padding-left: 452px;
+margin-left: avto;
+margin-right: avto;
+text-align: center;
+
+background-color: #2f303a;
 }
 .hero-title {
   font-family: 'Roboto' sans-serif;
@@ -99,7 +111,20 @@ font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height:calc(60/44)
+
+letter-spacing: 0.06em;
+
+
+color: #FFFFFF;
+max-width: 696px;
+margin left: avto;
+margin right: avto;
+text-align: center; ;
+
 }
+
+/* Button */
+
 
 .main-button {
   font-family: 'Roboto'sans-serif;
@@ -107,27 +132,21 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88px;
-
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
+text-align: center;
+
+width: 216px;
+height: 50px;
+padding-left: 692px;
+padding-top: 430px;
 
 color: #FFFFFF;
-margin: 0 avto;
-text-align: center;
-align-items: center;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
 
-.batton-btn {
-  background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
 
-}
 .list {
     list-style: none;
      margin: 0;
@@ -254,7 +273,7 @@ cursor: pointer;
   
 /*HEDER*/
 
-heder-nav-i.tem {
+ header list {
   font-weight: 500;
   font-size: 14px;
   line: height 1.14em;
@@ -415,8 +434,7 @@ color: #FFFFFF;
   color: #212121;
 }
 /* Наша команда */
-.section-lead {
-
+ 
 }
 .title-list {
   font-weight: 700;
@@ -524,7 +542,13 @@ letter-spacing: 0.03em;
 
 
   /*Портфоліо*/
-  .boxes {
+ 
+.boxes {
+  position: relative;
+width: 1600px;
+height: 252px;
+
+background: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
     padding: 0;
@@ -537,44 +561,22 @@ letter-spacing: 0.03em;
     flex-basis: calc(100%/3-30px);
     margin-left: 30px;
     margin-top: 30px;
+  
   }
   .select-tupe:fcus {
     background-color: var(--btn-bcg-select);
     color: var(--secondary-text-color);
   }
     /*Утіліти*/
-  .list {
-    display:flex;
-    list-style: none;
-   
-    padding-top: 32px;
-  padding-bottom: 32px;
-  font-weight: 500;
-font-size: 14px;
-line-height: 1.14rem;
-letter-spacing: 0.02em;
-text-decoration: none;
-
-color: #212121;
-  }
-  .link {
-    text-decoration: none;
-  }
-  .project-name {
-    display:flex;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    color: var(--title-text-color);
-  }
-  .projct-about {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.87;
-    color: var(--primary-text-color);
-  }
+     .portfolio-button {
+      display: flex;
+      width: 1170px;
+height: 1360px;
+left: 215px;
+top: 174px;
+     }
+    
+  
   /*Усі */
   .batton-btn {
    
@@ -584,6 +586,16 @@ line: height 1.62em;
 text-align: center;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+position: absolute;
+width: 73px;
+height: 38px;
+padding-left: 512px;
+padding-top: 174px;
+
+background: #2196F3;
+/* shadow-middle */
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px
  }
  /*Веб-сайти*/
  .batton-btn {
@@ -593,6 +605,11 @@ line: height 1.62em;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+position: absolute;
+width: 81px;
+height: 26px;
+left: 615px;
+top: 180px;
  }
  /*Додатки*/
  .batton-btn {
@@ -622,8 +639,12 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 /*boxes list*/
+background-color: var(--btn-bcg-select);
+color: var (--sendary-tex-color);
+
 /*Технокряк*/
 .boxes-title {
+  
 font-weight: 700;
 font-size: 18px;
 line-height: 2.0em;
@@ -641,6 +662,7 @@ color: #757575;
 
 
 .boxes-title {
+  
   font-weight: 700;
 font-size: 18px;
 line-height: 2.0em;
