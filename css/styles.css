@@ -1,47 +1,58 @@
-.box {
+
+
+.body {
   
-  width: 500px;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+ 
+ }
+ .box {
+ 
+   width: 500px;
   height: 100px;
  
   margin-left: auto;
   margin-right: auto;
 }
-
-.body {
-  
-  font-family: Raleway, sans-serif;
-  font-family:Roboto; sans-serif;
+.logo {
   text-decoration: none;
- 
- }
- .list {
-  text-decoration: none;
- }
- .link {
-  text-decoration: none;
- }
-.header-container {
-  text-decoration: none;
-  font-family: 'Roboto';
-font-style: normal;
-background: #FFFFFF;
 }
-.header-logo {
-   text-decoration: none;
+.first-part {
   
- font-weight: 700;
+   font-family: 'Raleway',sans-serif;
+font-style: normal;
+font-weight: 700;
 font-size: 26px;
 line-height: calc(31/26);
 letter-spacing: 0.03em;
-
+color: #2196F3;
 }
-.logo {
-  font-weight: 700;
+.last-part {
+   font-family: 'Raleway',sans-serif;
+font-style: normal;
+font-weight: 700;
 font-size: 26px;
-line-height: calc(31/26)
-
+line-height: calc(31/26);
+letter-spacing: 0.03em;
+color: #000000;
 
 }
+
+  .header-list {
+ 
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.02em;
+
+ }
+
+
+
 .header-list  {
   text-decoration: none;
   
@@ -51,13 +62,6 @@ line-height: calc(16/14);
 letter-spacing: 0.02em;
 
 color: #2196F3;
-
-
-  
-font-weight: 500;
-font-size: 14px;
-line-height: calc(16/14);
-letter-spacing: 0.02em;
 
 color: #212121;
 }
@@ -349,18 +353,25 @@ color: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-/*content*/
+/*section*/
 /*УВАГА ДО ДЕТАЛЕЙ*/
-.content-title {
-  margin-top: 0;
-  margin-bottom: 10px;
+.section-title {
+  color: var(--defaul-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+}
+.title [
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
-}
+]
 .content-title-before {
   font-weight: 400;
   font-size: 14px;
@@ -368,71 +379,8 @@ color: #FFFFFF;
   letter-spacing: 0.03em;
   color: #75757;
 }
-/* ПУНКТУАЛЬНІСТЬ */
-.content-title {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14em;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 
-  color: #212121;
-}
-.content-title-before {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71em;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-/* ПЛАНУВАННЯ */
-.content-title {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14em;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-}
-.content-title-before {
-  ont-weight: 400;
-  font-size: 14px;
-  line-height: 1.71em;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-/* СУЧАСНІ ТЕХНОЛОГІЇ */
-.content-title {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14em;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-}
-.content-title {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71em;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-/*Чим ми займаємося*/
-.features-title {
- 
-  font-weight: 700;
-  font-size: 36px;
-  line: height 1.16em;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
+
 /* Наша команда */
  
 }
@@ -465,8 +413,13 @@ color: rgba(255, 255, 255, 0.6);
 
   /*Стилізація команди*/
   .our-team-lead {
-    padding-top: 94px;
-    padding-batton: 94px;
+    width: 1170px;
+height: 386px;
+left: 215px;
+top: 966px;
+gap: 30px;
+    padding-top: 30px;
+    padding-batton: 30px;
   }
   .photo-team-list {
     flex-basis:calc((100%-30px*3)/4);
@@ -569,11 +522,18 @@ background: #FFFFFF;
   }
     /*Утіліти*/
      .portfolio-button {
+      color: #212121;
+      background-color: #f5f4fa;
       display: flex;
       width: 1170px;
 height: 1360px;
 left: 215px;
 top: 174px;
+     }
+     .hero-btn:hover,
+     .hero-btn:focus {
+      color: #ffffff;
+      background-color: var(--acent-color);
      }
     
   
@@ -803,6 +763,7 @@ color: #FFFFFF;
 font-size: 14px;
 line-height: 1.71em;;
 letter-spacing: 0.03em;
+}
 
 .address-contacts link {
   font-style: normal;
