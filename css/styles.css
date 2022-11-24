@@ -1,23 +1,39 @@
 
 
+
 .body {
   
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
-  text-decoration: none;
  
  }
- .box {
  
-   width: 500px;
-  height: 100px;
+ .list {
+    list-style: none;
+    text-decoration: none;
+  
+    }
+   .link {
+    text-decoration: none;
+    list-style: none;
+  }
+  .header-logo {
+    display: flex;
+     align-items: center;
+    
+  }
+   
+ .header-logo {
  
-  margin-left: auto;
-  margin-right: auto;
-}
-.logo {
-  text-decoration: none;
-}
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-decoration: none;
+  }
+
+ 
+
 .first-part {
   
    font-family: 'Raleway',sans-serif;
@@ -28,6 +44,7 @@ line-height: calc(31/26);
 letter-spacing: 0.03em;
 color: #2196F3;
 }
+
 .last-part {
    font-family: 'Raleway',sans-serif;
 font-style: normal;
@@ -39,34 +56,18 @@ color: #000000;
 
 }
 
-  .header-list {
+  .header-list-item {
  
-  text-decoration: none;
   font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: calc(16/14);
 letter-spacing: 0.02em;
+text-decoration: none;
+
 
  }
-
-
-
-.header-list  {
-  text-decoration: none;
-  
-  font-weight: 500;
-font-size: 14px;
-line-height: calc(16/14);
-letter-spacing: 0.02em;
-
-color: #2196F3;
-
-color: #212121;
-}
-
-
 
 .header-mail-list {
   font-weight: 500;
@@ -91,22 +92,11 @@ text-decoration: none;
 /*HERO*/
 
 .hero {
-  
+  position: absolute;
 width: 1600px;
 height: 600px;
 left: 0px;
 top: 80px;
-text-align: center;
-
-
-
-padding-top: 200px;
-
-padding-left: 452px;
-margin-left: avto;
-margin-right: avto;
-text-align: center;
-
 background-color: #2f303a;
 }
 .hero-title {
@@ -115,17 +105,12 @@ font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height:calc(60/44)
+text-align: center;
 
-letter-spacing: 0.06em;
+color: #FFFFFF;}
 
 
-color: #FFFFFF;
-max-width: 696px;
-margin left: avto;
-margin right: avto;
-text-align: center; ;
 
-}
 
 /* Button */
 
@@ -135,14 +120,13 @@ text-align: center; ;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
-line-height: 1.88px;
+line-height: 1.88;
+padding-top: 440px;
+padding-left: ; 724px;
 letter-spacing: 0.06em;
 text-align: center;
 
-width: 216px;
-height: 50px;
-padding-left: 692px;
-padding-top: 430px;
+
 
 color: #FFFFFF;
 background: #2196F3;
@@ -151,26 +135,9 @@ border-radius: 4px;
 }
 
 
-.list {
-    list-style: none;
-     margin: 0;
-    }
-   .link {
-    text-decoration: none;
-  }
-  .header-logo {
-    display: flex;
-    align-items: center;
-  }
-  .logo-link {
+
+
  
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19em;
-letter-spacing: 0.03em;
-
-
- }
 /* WebStudio */ 
 .heder-container {
   font-family: Raleway;
@@ -189,7 +156,7 @@ text-decoration: none;}
    } 
    /*Студія*/
    
-   .heder-list-link  {
+   .header-list-link  {
     font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -204,7 +171,7 @@ left: 453px;
 top: 32px;
    }
    /*Портфолио*/
-   .heder-list-link {
+   .header-list-iteam {
     font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -219,7 +186,7 @@ left: 548px;
 top: 32px;
  }
  /*Контакти*/
- .heder-list-link {
+ .header-list-link {
   font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -230,7 +197,7 @@ letter-spacing: 0.02em;
 color: #212121;
  }
 
-
+-----------------------
     
    .hero title {
     font-family: Roboto;
@@ -472,12 +439,14 @@ color: #2196F3;
   rgba(255, 255, 255, 1);
 }
 
-  .footer-tel-link {
+  .footer-tel-link  {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
+  list-style: none;
 }
   
 font-family: 'Roboto'sans-serif;
@@ -526,9 +495,7 @@ background: #FFFFFF;
       background-color: #f5f4fa;
       display: flex;
       width: 1170px;
-height: 1360px;
-left: 215px;
-top: 174px;
+
      }
      .hero-btn:hover,
      .hero-btn:focus {
