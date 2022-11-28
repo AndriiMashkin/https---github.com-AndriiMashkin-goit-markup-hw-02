@@ -322,7 +322,7 @@ text-decoration: none;
 color: #212121;
 }
 
-  .photo-team-list {
+  .pfoto-team-list {
     flex-basis:calc((100%-30px*3)/4);
 
   }
@@ -539,6 +539,8 @@ color: #757575;
   font-weight: 700;
 font-size: 18px;
 line-height: 2.0em
+letter-spacing: 0.06em;
+
 }
 
 
@@ -635,6 +637,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03px;
+font-style: normal;
 
 text-decoration: none;
   }
@@ -670,11 +673,7 @@ color: #000000;
   font-weight: 400;
 font-size: 14px;
 line-height: calc(24/14);
-font-style: normal;
-
-
 letter-spacing: 0.03em;
-
 color: #FFFFFF;
 
 }
