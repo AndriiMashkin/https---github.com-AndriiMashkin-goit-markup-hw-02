@@ -89,6 +89,8 @@ text-decoration: none;
 
 }
 /*Студія*/
+
+
    
    .header-list-link  {
     font-family: 'Roboto', sans-serif;
@@ -129,15 +131,16 @@ color: var(--second-text-color);
 
 -----------------------
 /*HERO*/
-.container .hero-title {
-  background: #131317;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1200px;
-  text-align: center;
+
+.hero {
+ 
+  
+background-color: #2F303A;
+margin: 0 auto;
+text-align: center;
+display: block;
 }
+
 
 .hero-title {
   font-family: 'Roboto', sans-serif;
@@ -148,42 +151,16 @@ line-height: calc(60/44);
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-background: #131317;
+color: #ffffff;
 
-color: #FFFFFF;
+margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+  text-align: center;
+  background-color: #2F303A;
 }
-
-/* Button */
-
-.main-button {
-  font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: calc(30/16);
- display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-cursor: pointer;
-padding-top: 440px;
-padding: 10px 32px;
-    color:var(--primary-text-color)
-     
-color: #FFFFFF;
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-}
-
- 
-  
-  
-  
-  
-
-
-
 .hero-button {
   font-weight: 700;
   font-size: 16px;
@@ -196,56 +173,9 @@ border-radius: 4px;
   color: #ffffff;
   background-color: #2196f3;
   margin-bottom:0 auto;
-  
-
 }
-.header-btn:hover {
-  
-  position: absolute;
-  min-width: 216px;
-  min-height: 50px;
-
-  
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-
-
-/*HEDER*/
-
- . header list {
-  font-weight: 500;
-  font-size: 14px;
-  line height 1.14;
-  letter-spacing: 0.02em;
-
-  color: #2196f3;
-}
-
-.header-tel-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14px;
-  letter-spacing: 0.02em;
-  color:#757575; ;
-
-}
-
-.header-mail-link {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14px;
-  letter-spacing: 0.02em;
-    color: #2196F3;
-  }
-      
     
-
-  
-/*section*/
+  /*section*/
 /*УВАГА ДО ДЕТАЛЕЙ*/
 .section-title {
   color: var(--defaul-text-color);
