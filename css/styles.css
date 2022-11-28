@@ -114,10 +114,7 @@ line-height: 1.14px;
 letter-spacing: 0.02em;
 
 color: #212121;
-width: 72px;
-height: 16px;
-left: 548px;
-top: 32px;
+
  }
  /*Контакти*/
  .header-list-link {
@@ -127,70 +124,39 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
 letter-spacing: 0.02em;
-
-color: #212121;
- }
+color: var(--second-text-color);
+}
 
 -----------------------
 /*HERO*/
-
-.hero {
-  position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
-background-color: #2f303a;
+.container .hero-title {
+  background: #131317;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+  text-align: center;
 }
+
 .hero-title {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height:calc(60/44)
+line-height: calc(60/44);
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+background: #131317;
+
+color: #FFFFFF;
 }
 
 /* Button */
 
 .main-button {
-  font-family: 'Roboto'sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-padding-top: 440px;
-
-letter-spacing: 0.06em;
-text-align: center;
-
-color: #FFFFFF;
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-}
-
-    
-   .hero title {
-    font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36px;
-
-text-align: center;
-
-
-color: #FFFFFF;
-
-    background-color: var(--background-footer-color--);
-  }
-  
-  
-  
-  .main-button {
-   
-
-     font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -200,13 +166,53 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 cursor: pointer;
-
-
-    padding: 10px 32px;
+padding-top: 440px;
+padding: 10px 32px;
     color:var(--primary-text-color)
      
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
 
-  /*HEDER*/
+ 
+  
+  
+  
+  
+
+
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30/16);
+  display: block;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2196f3;
+  margin-bottom:0 auto;
+  
+
+}
+.header-btn:hover {
+  
+  position: absolute;
+  min-width: 216px;
+  min-height: 50px;
+
+  
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+
+/*HEDER*/
 
  . header list {
   font-weight: 500;
@@ -233,52 +239,12 @@ cursor: pointer;
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
-  color: #2196F3;
-
-  /*HERO*/
-  .hero {
-    width: 1600px;
-height: 600px;
- padding left: 0px;
- padding top: 80px;
-  background color: rgba(33,33,33,1);
-
+    color: #2196F3;
   }
-  
-  .hero-title {
-  
-font-weight: 900;
-font-size: 44px;
-line-height:calc(60/44);
+      
+    
 
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
-color: #FFFFFF;
-
-}
-.header-btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87em;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #2196f3;
-  margin-bottom: 100px;
-}
-.header-btn:hover {
   
-  position: absolute;
-  
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
 /*section*/
 /*УВАГА ДО ДЕТАЛЕЙ*/
 .section-title {
@@ -310,6 +276,8 @@ color: #FFFFFF;
 /* Наша команда */
 
 .our-team-lead {
+  padding-top: 94px;
+  padding-bottom: 94px;
   font-family: 'Roboto' sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -329,6 +297,7 @@ color: #212121;
   .list-team-lead {
     display: flex;
     gap: 30px;
+    
     padding: left 215px;
     padding-right: 215px;
   }
