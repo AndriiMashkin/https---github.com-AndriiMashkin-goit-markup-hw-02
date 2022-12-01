@@ -7,6 +7,15 @@
   font-family: 'Raleway', sans-serif;
  
  }
+ *::before,
+ *::after {
+ box-sizing: border-box;
+  
+  max-width: min-content;
+  min-height: 680px;
+
+
+ }
  
  .list {
     list-style: none;
@@ -17,21 +26,15 @@
     list-style: none;
   }
   .header-logo {
-    display: flex;
+  display: flex;
      align-items: center;
-    
-  }
-.header-logo {
- 
-font-weight: 700;
+    font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03px;
 
 text-decoration: none;
   }
-
- 
 
 .first-part {
   
@@ -64,9 +67,7 @@ font-size: 14px;
 line-height: calc(16/14);
 letter-spacing: 0.02em;
 text-decoration: none;
-
-
- }
+}
 
 .header-mail-list {
   font-weight: 500;
@@ -89,11 +90,8 @@ text-decoration: none;
 
 }
 /*Студія*/
-
-
-   
-   .header-list-link  {
-    font-family: 'Roboto', sans-serif;
+ .header-list-link  {
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -101,12 +99,8 @@ line-height: 1.14px;
 letter-spacing: 0.02em;
 
 color: #2196F3;
-width: 45px;
-height: 16px;
-left: 453px;
-top: 32px;
-   }
-   /*Портфолио*/
+}
+/*Портфолио*/
    .header-list-iteam {
     font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -132,11 +126,13 @@ color: var(--second-text-color);
 -----------------------
 /*HERO*/
 
-.hero {
- 
+.hero .container {
+  content: box 1600px;
+
+  width: 1600px;
   
-background-color: #2F303A;
-margin: 0 auto;
+  background-color: #2F303A;
+margin: 20px;
 text-align: center;
 display: block;
 }
@@ -152,12 +148,11 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #ffffff;
+width: 696 ;
+padding: 452;
+padding-top: 200px;
+p
 
-margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1200px;
   text-align: center;
   background-color: #2F303A;
 }
