@@ -1,18 +1,28 @@
 
-
+.html {
+  box-sizing: border-box;
+} 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
 .body {
   
+
   font-family: 'Roboto', sans-serif;
   font-family: 'Raleway', sans-serif;
+  margin: 0;
  
  }
  *::before,
  *::after {
+  
  box-sizing: border-box;
   
   max-width: min-content;
-  min-height: 680px;
+  
 
 
  }
@@ -127,12 +137,15 @@ color: var(--second-text-color);
 /*HERO*/
 
 .hero .container {
-  content: box 1600px;
+  width: 1200px;
+ 
+  display: inline-block;
+  padding: 20px 40px;
+  color: #ffffff;
+background-color: #2F303A;
+margin-left: auto;
+margin-right: auto;
 
-  width: 1600px;
-  
-  background-color: #2F303A;
-margin: 20px;
 text-align: center;
 display: block;
 }
@@ -148,10 +161,8 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #ffffff;
-width: 696 ;
-padding: 452;
-padding-top: 200px;
-p
+
+
 
   text-align: center;
   background-color: #2F303A;
