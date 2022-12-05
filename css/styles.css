@@ -6,7 +6,7 @@
 
   font-family: 'Roboto', sans-serif;
   font-family: 'Raleway', sans-serif;
-  margin: 0;
+ 
  
  }
  
@@ -127,10 +127,7 @@ color: var(--second-text-color);
 
 .hero .container {
   width: 1230px;
- 
-  display: inline-block;
-  padding: 20px 40px;
-  color: #ffffff;
+ color: #ffffff;
 background-color: #2F303A;
 padding-left: 15px
 padding-bottom: 15px;
@@ -150,6 +147,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #ffffff;
+margin-bottom: 30px;
 
 
 
@@ -167,7 +165,7 @@ color: #ffffff;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #2196f3;
-  margin-bottom:0 auto;
+  margin-bottom:30px;
 }
     
   /*section*/
@@ -195,6 +193,7 @@ color: #ffffff;
   line-height: calc(24/14);
   letter-spacing: 0.03em;
   color: #75757;
+  margin-botton: 10px;
 }
 
 
@@ -285,6 +284,104 @@ color: #2196F3;
   text-decoration: none;
   list-style: none;
 }
+.header-logo {
+  display: flex;
+     align-items: center;
+    font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03px;
+
+text-decoration: none;
+  }
+
+.first-part {
+  
+   font-family: 'Raleway',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31/26);
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.last-part {
+   font-family: 'Raleway',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31/26);
+letter-spacing: 0.03em;
+color: #000000;
+
+}
+
+  .header-list-item {
+ 
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.header-mail-list {
+  font-weight: 500;
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.02em;
+
+color: #2196F3;
+text-decoration: none;
+
+}
+.header-tel-link {
+  font-weight: 500;
+font-size: 14px;
+line-height:calc(16/14);
+letter-spacing: 0.02em;
+
+color: #757575;
+text-decoration: none;
+
+}
+/*Студія*/
+ .header-list-link  {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+}
+/*Портфолио*/
+   .header-list-iteam {
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+
+color: #212121;
+
+ }
+ /*Контакти*/
+ .header-list-link {
+   font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+color: var(--second-text-color);
+}
+
   
 
 
@@ -292,22 +389,16 @@ color: #2196F3;
  
 .boxes {
   position: relative;
-width: 1600px;
-height: 252px;
+padding-top: 88px;
+padding-bottom: 346px;
 text-align: center;
 text-decoration: none;
+
 
 background: #FFFFFF;
     
   }
-  
-  
-  
-  .select-tupe:focus {
-    background-color: var(--btn-bcg-select);
-    color: var(--secondary-text-color);
-  }
-    /*Утіліти*/
+  /*Утіліти*/
      .portfolio-button {
       color: #212121;
       background-color: #f5f4fa;
