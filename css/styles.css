@@ -6,17 +6,8 @@
 font-family: 'Raleway', sans-serif;
  
   font-family: 'Roboto', sans-serif;
-  
- 
- }
- 
-  .header-container {
-     font-weight: 1600;
-    font-size: 80px;
-    
-  }
- 
- .list {
+}
+.list {
     list-style: none;
     text-decoration: none;
    }
@@ -130,7 +121,7 @@ color: var(--second-text-color);
   width: 1230px;
  color: #ffffff;
 background-color: #2F303A;
-padding-top; 200px
+padding-top: 200px;
 padding-bottom: 200px;
 
 text-align: center;
@@ -321,11 +312,8 @@ padding-top: 88px;
 padding-bottom: 346px;
 text-align: center;
 text-decoration: none;
-
-
 background: #FFFFFF;
-    
-  }
+}
   /*Утіліти*/
      .portfolio-button {
       color: #212121;
