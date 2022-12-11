@@ -188,12 +188,18 @@ margin-bottom: 30px;
   color: #75757;
   margin-botton: 10px;
 }
+.elem-list-link {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  
+}
 
 
 /* Наша команда */
 
 .our-team-lead {
-  padding-top: 94px;
+  padding-top: 186px;
   padding-bottom: 94px;
   font-family: 'Roboto' sans-serif;
 font-style: normal;
@@ -203,6 +209,7 @@ line-height: 1.17px;
 text-align: center;
 letter-spacing: 0.03em;
 text-decoration: none;
+background: url(4853.jpg);
 
 color: #212121;
 }
@@ -213,6 +220,7 @@ color: #212121;
   }
   .list-team-lead {
     display: flex;
+    max-width: 100%;
     gap: 30px;
     
     padding-left:  15px;
@@ -220,11 +228,12 @@ color: #212121;
   }
   .team-lead-name {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 153px;
     border: radius 4px 0px 4px 4px;
   }
   .team-lead-skill {
-    padding-bottom: 30px;
+   
+    padding-bottom: 124px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),0px 1px 1px rgba(0, 0, 0, 0.14),0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
