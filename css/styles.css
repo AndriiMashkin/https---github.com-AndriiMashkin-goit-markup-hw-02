@@ -15,12 +15,17 @@ font-family: 'Raleway', sans-serif;
     text-decoration: none;
     list-style: none;
   }
+  .header-container {
+    display:flex
+    align-itens: center;
+  }
   .header-logo {
     
  font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03px;
+
 
 text-decoration: none;
   }
